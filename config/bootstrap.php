@@ -215,7 +215,7 @@ Type::build('timestamp')
  * Debug Kit should not be installed on a production system
  */
 if (Configure::read('debug')) {
-    Plugin::load('DebugKit', ['bootstrap' => true]);
+    //Plugin::load('DebugKit', ['bootstrap' => true]);
 }
 
 // Remove and re-prepend CakePHP's autoloader as Composer thinks it is the
