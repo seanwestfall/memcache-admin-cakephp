@@ -1,5 +1,5 @@
 <?php
-define('CAKE_CORE_INCLUDE_PATH', ROOT . DS . APP_DIR . "/Vendor/cakephp/cakephp/lib");
+define('CAKE_CORE_INCLUDE_PATH', ROOT . DS . APP_DIR . "/vendor/cakephp/cakephp/lib");
 /**
  * The Front Controller for handling every request
  *
