@@ -30,7 +30,7 @@ require __DIR__ . '/paths.php';
 require CORE_PATH . 'config' . DS . 'bootstrap.php';
 
 // Heroku specific
-require APP . '/Vendor/autoload.php';
+require APP . '/vendor/autoload.php';
 
 use Cake\Cache\Cache;
 use Cake\Console\ConsoleErrorHandler;
